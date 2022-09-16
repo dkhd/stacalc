@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Stacalc",
+  "name": "Super simple on-chain calculator on Stacks blockchain",
   "icons": [
     {
       "src": "favicon.ico",
