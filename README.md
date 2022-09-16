@@ -1,8 +1,11 @@
 # Stacalc
 
-Stacalc is a super simple on-chain calculator application on [Stack blockchain](https://stacks.co).
+Stacalc is a super simple on-chain calculator application on [Stack blockchain](https://stacks.co). 
 
 ![homepage](./docs/images/homepage.png)
+
+This application will run with the pre-deployed smart contract. If you want to deploy your own smart contract, you can deploy the smart contract located at `/smart_contract/contracts/calculator.clar`. Make sure to change the Front-End configuration at `/src/lib/config.js`.
+
 ## Features
 
 - Connect & disconnect wallet
