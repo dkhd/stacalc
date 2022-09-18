@@ -1,5 +1,4 @@
 import { AppConfig, UserSession, showConnect } from "@stacks/connect";
-import { Person } from "@stacks/profile";
 window.Buffer = window.Buffer || require("buffer").Buffer;
 
 const appConfig = new AppConfig(["store_write", "publish_data"]);
@@ -22,10 +21,6 @@ export function authenticate() {
 
 export function getUserData() {
   return userSession.loadUserData();
-}
-
-export function getPerson() {
-  return new Person(getUserData().profile);
 }
 
 export const logoutUser = () => {
