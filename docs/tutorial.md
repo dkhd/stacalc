@@ -593,7 +593,7 @@ Try to start the server to check if there is any error.
 npm run start
 ```
 
-You can also open `[http://localhost:3000](http://localhost:3000)` in your browser to see the final result from this configuration.
+You can also open [http://localhost:3000](http://localhost:3000) in your browser to see the final result from this configuration.
 
 If you have a difficulty to setup your ReactJS and TailwindCSS project, please refer to the official documentation at [https://tailwindcss.com/docs/guides/create-react-app](https://tailwindcss.com/docs/guides/create-react-app) before continue to the next step.
 
@@ -986,7 +986,7 @@ function App() {
 export default App;
 ```
 
-What this `App.js` does is routing the pages using `react-router-dom`, and it will open the `<Home />` that we have created above if we open the `[http://localhost:3000](http://localhost:3000)` in your browser.
+What this `App.js` does is routing the pages using `react-router-dom`, and it will open the `<Home />` that we have created above if we open the [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Running the Application
 
@@ -996,9 +996,9 @@ Now that the we already finished to write the code, it is time to run the applic
 npm run start
 ```
 
-Then open `[http://localhost:3000](http://localhost:3000)` in your browser. If there is no error, you should see this screen:
+Then open [http://localhost:3000](http://localhost:3000) in your browser. If there is no error, you should see this screen:
 
-![stacalc-1.png](/docs/images/stacalc-1%201.png)
+![stacalc-1.png](/docs/images/stacalc-1.png)
 
 There is a *Connect Wallet* button next to a disabled *Calculate* button. 
 
